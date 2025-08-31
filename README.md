@@ -1,4 +1,4 @@
-# API AI Execution
+# API AI Execution [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/montraydavis/AIApiOrchestrator)
 
 AI-assisted API execution engine for defining endpoints, resolving parameters from natural language and prior responses, handling authentication, and executing requests with safe logging utilities.
 
