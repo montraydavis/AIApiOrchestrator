@@ -1,0 +1,26 @@
+{
+  "name": "ai-api-orchestrator",
+  "version": "1.0.0",
+  "description": "AI powered API orchestration engine.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "postbuild": "cp -R ./src/prompt-templates ./dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.11.1",
+    "@azure/openai": "^2.0.0",
+    "cockatiel": "^3.2.1",
+    "handlebars": "^4.7.8",
+    "openai": "^5.16.0"
+  }
+}
